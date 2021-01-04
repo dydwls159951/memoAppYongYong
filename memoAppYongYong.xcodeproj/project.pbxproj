@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		D17981D825A349B7006060C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17981D725A349B7006060C6 /* AppDelegate.swift */; };
 		D17981DA25A349B7006060C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17981D925A349B7006060C6 /* SceneDelegate.swift */; };
-		D17981DC25A349B7006060C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17981DB25A349B7006060C6 /* ViewController.swift */; };
 		D17981DF25A349B7006060C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17981DD25A349B7006060C6 /* Main.storyboard */; };
 		D17981E225A349B7006060C6 /* memoAppYongYong.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D17981E025A349B7006060C6 /* memoAppYongYong.xcdatamodeld */; };
 		D17981E425A349BC006060C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D17981E325A349BC006060C6 /* Assets.xcassets */; };
@@ -39,7 +38,6 @@
 		D17981D425A349B7006060C6 /* 용용메모.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "용용메모.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17981D725A349B7006060C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D17981D925A349B7006060C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D17981DB25A349B7006060C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D17981DE25A349B7006060C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D17981E125A349B7006060C6 /* memoAppYongYong.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = memoAppYongYong.xcdatamodel; sourceTree = "<group>"; };
 		D17981E325A349BC006060C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 			children = (
 				D17981D725A349B7006060C6 /* AppDelegate.swift */,
 				D17981D925A349B7006060C6 /* SceneDelegate.swift */,
-				D17981DB25A349B7006060C6 /* ViewController.swift */,
 				D17981DD25A349B7006060C6 /* Main.storyboard */,
 				D17981E325A349BC006060C6 /* Assets.xcassets */,
 				D17981E525A349BC006060C6 /* LaunchScreen.storyboard */,
@@ -262,7 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D17981DC25A349B7006060C6 /* ViewController.swift in Sources */,
 				D17981E225A349B7006060C6 /* memoAppYongYong.xcdatamodeld in Sources */,
 				D17981D825A349B7006060C6 /* AppDelegate.swift in Sources */,
 				D17981DA25A349B7006060C6 /* SceneDelegate.swift in Sources */,
@@ -441,7 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5G8G88XUHG;
 				INFOPLIST_FILE = memoAppYongYong/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5G8G88XUHG;
 				INFOPLIST_FILE = memoAppYongYong/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
