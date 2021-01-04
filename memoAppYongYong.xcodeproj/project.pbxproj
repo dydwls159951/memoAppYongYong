@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D17981D425A349B7006060C6 /* memoAppYongYong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoAppYongYong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D17981D425A349B7006060C6 /* 용용메모.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "용용메모.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17981D725A349B7006060C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D17981D925A349B7006060C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D17981DB25A349B7006060C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 		D17981D525A349B7006060C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D17981D425A349B7006060C6 /* memoAppYongYong.app */,
+				D17981D425A349B7006060C6 /* 용용메모.app */,
 				D17981ED25A349BC006060C6 /* memoAppYongYongTests.xctest */,
 				D17981F825A349BC006060C6 /* memoAppYongYongUITests.xctest */,
 			);
@@ -148,7 +148,7 @@
 			);
 			name = memoAppYongYong;
 			productName = memoAppYongYong;
-			productReference = D17981D425A349B7006060C6 /* memoAppYongYong.app */;
+			productReference = D17981D425A349B7006060C6 /* 용용메모.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D17981EC25A349BC006060C6 /* memoAppYongYongTests */ = {
@@ -441,14 +441,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5G8G88XUHG;
 				INFOPLIST_FILE = memoAppYongYong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yongyong.memoAppYongYong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "용용메모";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,14 +460,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5G8G88XUHG;
 				INFOPLIST_FILE = memoAppYongYong/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yongyong.memoAppYongYong;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "용용메모";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
