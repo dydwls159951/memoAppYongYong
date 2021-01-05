@@ -15,6 +15,11 @@
 		D17981E725A349BC006060C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D17981E525A349BC006060C6 /* LaunchScreen.storyboard */; };
 		D17981F225A349BC006060C6 /* memoAppYongYongTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17981F125A349BC006060C6 /* memoAppYongYongTests.swift */; };
 		D17981FD25A349BD006060C6 /* memoAppYongYongUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17981FC25A349BC006060C6 /* memoAppYongYongUITests.swift */; };
+		D179D7C325A4BAEA009F1AAB /* MemoFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179D7C225A4BAEA009F1AAB /* MemoFormViewController.swift */; };
+		D179D7CB25A4BB09009F1AAB /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179D7CA25A4BB09009F1AAB /* MemoListTableViewController.swift */; };
+		D179D7D025A4BB1C009F1AAB /* MemoReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179D7CF25A4BB1C009F1AAB /* MemoReadViewController.swift */; };
+		D179D7D525A4BB3C009F1AAB /* MemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179D7D425A4BB3C009F1AAB /* MemoTableViewCell.swift */; };
+		D179D7DA25A4BF0E009F1AAB /* MemoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D179D7D925A4BF0E009F1AAB /* MemoData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		D17981F825A349BC006060C6 /* memoAppYongYongUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoAppYongYongUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D17981FC25A349BC006060C6 /* memoAppYongYongUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoAppYongYongUITests.swift; sourceTree = "<group>"; };
 		D17981FE25A349BD006060C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D179D7C225A4BAEA009F1AAB /* MemoFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoFormViewController.swift; sourceTree = "<group>"; };
+		D179D7CA25A4BB09009F1AAB /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
+		D179D7CF25A4BB1C009F1AAB /* MemoReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoReadViewController.swift; sourceTree = "<group>"; };
+		D179D7D425A4BB3C009F1AAB /* MemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoTableViewCell.swift; sourceTree = "<group>"; };
+		D179D7D925A4BF0E009F1AAB /* MemoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +112,15 @@
 				D17981D725A349B7006060C6 /* AppDelegate.swift */,
 				D17981D925A349B7006060C6 /* SceneDelegate.swift */,
 				D17981DD25A349B7006060C6 /* Main.storyboard */,
+				D179D7D925A4BF0E009F1AAB /* MemoData.swift */,
 				D17981E325A349BC006060C6 /* Assets.xcassets */,
 				D17981E525A349BC006060C6 /* LaunchScreen.storyboard */,
 				D17981E825A349BC006060C6 /* Info.plist */,
 				D17981E025A349B7006060C6 /* memoAppYongYong.xcdatamodeld */,
+				D179D7C225A4BAEA009F1AAB /* MemoFormViewController.swift */,
+				D179D7CA25A4BB09009F1AAB /* MemoListTableViewController.swift */,
+				D179D7CF25A4BB1C009F1AAB /* MemoReadViewController.swift */,
+				D179D7D425A4BB3C009F1AAB /* MemoTableViewCell.swift */,
 			);
 			path = memoAppYongYong;
 			sourceTree = "<group>";
@@ -262,7 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D179D7D025A4BB1C009F1AAB /* MemoReadViewController.swift in Sources */,
+				D179D7DA25A4BF0E009F1AAB /* MemoData.swift in Sources */,
+				D179D7C325A4BAEA009F1AAB /* MemoFormViewController.swift in Sources */,
 				D17981E225A349B7006060C6 /* memoAppYongYong.xcdatamodeld in Sources */,
+				D179D7D525A4BB3C009F1AAB /* MemoTableViewCell.swift in Sources */,
+				D179D7CB25A4BB09009F1AAB /* MemoListTableViewController.swift in Sources */,
 				D17981D825A349B7006060C6 /* AppDelegate.swift in Sources */,
 				D17981DA25A349B7006060C6 /* SceneDelegate.swift in Sources */,
 			);
